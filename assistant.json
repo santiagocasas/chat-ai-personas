@@ -1,18 +1,19 @@
 {
-    "title": "General Assistant",
-    "subtitle": "Quickly answers general questions and requests",
-    "model-name": "Meta Llama 3.1 8B Instruct",
-    "model": "meta-llama-3.1-8b-instruct",
-    "temperature": 0.5,
-    "top_p": 0.5,
-    "messages": [
-      {
-        "role": "system",
-        "content": "You are a helpful assistant"
-      },
-      {
-        "role": "info",
-        "content": "Hi there! I am your general assistant bot. How can I help you today?"
-      }
-    ]
-  }
+  "title": "Chat AI Assistant",
+  "subtitle": "Quick responses to general questions and requests, with extended capabilities.",
+  "temperature": 0.7,
+  "enable_tools": true,
+  "top_p": 0.8,
+  "model": "qwen3-30b-a3b-instruct-2507",
+  "model-name": "Qwen 3 30B A3B Instruct 2507",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "info",
+      "content": "Welcome to Chat AI! I can answer your questions, generate or modify an image for you, read you a poem, and more. How can I assist you today? ☺️"
+    }
+  ]
+}
