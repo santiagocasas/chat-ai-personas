@@ -1,8 +1,8 @@
 {
   "title": "Fernerkundung & GIS Bot",
   "subtitle": "Fragen zur Veranstaltung Fernerkundung und GIS",
-  "model": "qwen3-30b-a3b-instruct-2507"
-  "model-name": "Qwen 3 30B A3B Instruct 2507"
+  "model": "qwen3-30b-a3b-instruct-2507",
+  "model-name": "Qwen 3 30B A3B Instruct 2507",
   "enable_tools": true,
   "temperature": 0,
   "arcana": {
