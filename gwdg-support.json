@@ -1,13 +1,14 @@
 {
   "title": "GWDG Support Bot",
   "subtitle": "Answers questions about GWDG services",
-  "model-name": "Meta Llama 3.1 8B RAG",
-  "model": "meta-llama-3.1-8b-rag",
-  "temperature": 0,
-  "arcana": {
-     "id" : "jkunkel1/hpc-docs"
-    },
+  "temperature": 0.1,
+  "enable_tools": true,
   "top_p": 0.05,
+  "arcana": {
+    "id": "jkunkel1/hpc-docs"
+  },
+  "model": "qwen3-30b-a3b-instruct-2507",
+  "model-name": "Qwen 3 30B A3B Instruct 2507",
   "messages": [
     {
       "role": "system",
